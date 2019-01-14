@@ -15,7 +15,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PlatformClientUtils {
+public class PlatformClientUtil {
 	private static final Logger logger = LoggerFactory.getLogger(PlatformClientUtils.class);
 
 	public static void close(Closeable x) {
